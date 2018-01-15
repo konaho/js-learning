@@ -1,0 +1,12 @@
+.notes{
+  font-size: 0.7em;
+}
+.notes a{
+  color: #999;
+}
+
+.example {
+  border: solid #aaa 1px;
+  margin: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>演習：Step8</title>
+    <link rel="stylesheet" href="css/w_sample.css">
+  </head>
+  <body>
+    <header>
+      <h1>揃えて当てよう！キャンペーン</h1>
+      <button id="backBtn" class="btn_others" type="button" name="button">← 戻る</button>
+    </header>
+
+    <section id="numberSelect">
+      <p>何名で参加されますか？</p>
+      <select id="selectDivideNumber" name="divide_number">
+        <option value="0">↓↓ 選択してください ↓↓</option>
+        <option value="2">2人</option>
+        <option value="3">3人</option>
+        <option value="4">4人</option>
+      </select>
+    </section>
+    <section id="typeSelect">
+      <div id="typeBtns">
+        <button id="btn_1" type="button" name="button">★</button>
+        <button id="btn_2" type="button" name="button">☆</button>
+        <button id="btn_3" type="button" name="button">■</button>
+        <button id="btn_4" type="button" name="button">◆</button>
+        <button id="btn_5" type="button" name="button">●</button>
+        <button id="btn_6" type="button" name="button">◎</button>
+        <button id="btn_7" type="button" name="button">▲</button>
+        <button id="btn_8" type="button" name="button">▽</button>
+      </div>
+    </section>
+    <section id="displayImage">
+      <div>
+        <button id="reloadImgBtn" class="btn_others" type="button" name="button">画像リロード</button>
+      </div>
+      <div id="displayStage">
+        <img id="imgLoading" src="image/loading.png" alt="ローディング中">
+      </div>
+    </section>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="js/w_step8.js"></script>
+  </body>
+</html>

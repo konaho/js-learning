@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS講習：条件分岐</title>
+    <link rel="stylesheet" href="css/4_if_switch.css">
+  </head>
+  <body>
+
+    <h1>JS講習：条件分岐</h1>
+
+    <div id="ex4" class="content">
+
+      <div class="example">
+        <h3>入力された値に応じて背景色と太字が切り替わる</h3>
+        <p>[背景色]～100：赤、～1000：黄色、1000～：青<br>
+          [太字]～500：太字</p>
+        <form class="" action="javascript:changedValue();" method="post">
+          <input id="somevalue" type="text" name="" value="0">
+          <input type="submit" name="action" value="変更">
+        </form>
+        <div id="displayArea1">
+          <p>サンプルです。</p>
+        </div>
+      </div>
+
+      <div class="example">
+        <h3>チケットのステータスに応じてアイコンの色を変更</h3>
+        <form class="" action="javascript:selectedStatus();" method="post">
+        チケットステータス：
+          <select id="statusSelect" class="" name="">
+            <option value="未処理">未処理</option>
+            <option value="処理中">処理中</option>
+            <option value="処理済み">処理済み</option>
+            <option value="完了">完了</option>
+          </select>
+          <input type="submit" name="action" value="選択">
+        </form>
+        <div id="displayArea2">
+          <div id="ticketIcon" class="icon">未選択</div>
+        </div>
+    </div>
+  </div>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="js/4_if_switch.js"></script>
+  </body>
+</html>

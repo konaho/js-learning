@@ -1,0 +1,52 @@
+h1 {
+
+}
+
+section {
+  margin: 20px 0;
+}
+
+.hide {
+  display: none;
+}
+
+.btn_others {
+  padding: 5px 20px;
+  text-align: center;
+  /* 角丸 */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+}
+/**
+* #typeSelect
+**/
+#typeSelect {
+  width: 80%;
+  text-align: center;
+}
+#typeSelect button {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  /* 角丸 */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+/**
+ * #displayImage
+ **/
+#displayImage #displayStage {
+  margin: auto;
+  text-align: center;
+}
+#displayImage #displayStage #imgLoading {
+  width: 300px;
+}

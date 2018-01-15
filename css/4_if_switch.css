@@ -1,0 +1,18 @@
+
+#displayArea1 {
+  width: 300px;
+  height: 300px;
+  background-color: #aaa;
+}
+
+#ticketIcon {
+  margin: 20px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #aaa;
+  border-radius: 10px;        /* CSS3草案 */
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;   /* Firefox用 */
+}

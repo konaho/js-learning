@@ -1,0 +1,26 @@
+h1 {
+
+}
+
+section {
+  border: solid #aaa 1px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.btn {
+  padding: 5px 20px;
+  text-align: center;
+  /* 角丸 */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.notes{
+  font-size: 0.7em;
+  color: #999;
+}
+.notes a{
+  color: #999;
+}
